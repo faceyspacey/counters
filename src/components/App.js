@@ -40,7 +40,7 @@ export default class App extends React.Component {
         <ChildComponent handleClick={() => this.toggleModal()} />
         <CounterBasic count={this.state.count} />
 
-        <Counter  amount={3} />
+        <Counter amount={3} />
         <CounterButtons />
 
         <button onClick={() => this.changeCounter()}>counter</button>
